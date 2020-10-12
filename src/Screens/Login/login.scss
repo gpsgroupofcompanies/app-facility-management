@@ -1,0 +1,60 @@
+@import '../../style.scss';
+
+.gps_login {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 22px);
+    overflow-y: auto;
+    color: white;
+
+    .gps_title {
+        font-family: 'Dancing Script', cursive;
+        font-size: 60px;
+        color: #f4d03f;
+        font-weight: bold;
+    }
+
+    .gps_login_top {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        top: -175px;
+        /* right: -72px; */
+        z-index: 99;
+        left: -191px;
+        border-radius: 222px;
+        background-color: #F4D03F;
+
+        div {
+            display: flex;
+            position: absolute;
+            z-index: 999;
+            color: black;
+            bottom: 99px;
+            right: 36px;
+            font-size: 31px;
+            font-family: 'Dancing Script', cursive;
+        }
+    }
+
+    .gps_sep {
+        margin-bottom: 15px;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 400px;
+
+        @include sm {
+            width: 90%;
+        }
+    }
+
+    .gps_login_error {
+        color: red;
+    }
+}

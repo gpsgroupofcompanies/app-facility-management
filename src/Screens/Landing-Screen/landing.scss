@@ -1,0 +1,19 @@
+.gps_landing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    color: white;
+
+    .gps_container {
+        display: flex;
+        width: 100%;
+        height: calc(100vh - 56px);
+        flex-direction: column;
+    }
+
+    .gps_nav {
+        width: 100%;
+    }
+}

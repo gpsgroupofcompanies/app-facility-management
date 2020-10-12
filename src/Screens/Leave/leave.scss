@@ -1,0 +1,37 @@
+.gps_leave {
+    .MuiFormGroup-root {
+        flex-direction: revert;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        border-bottom: 1px solid #F4D03F;
+        background: #F4D03F;
+        color: black;
+
+        .MuiButtonBase-root {
+            color: black;
+        }
+    }
+
+
+}
+
+.gps_leave_details {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 136px);
+    border-bottom: 1px solid #F4D03F;
+
+    .gps_isMultiple_days {
+        .MuiFormGroup-root {
+
+            display: flex;
+            flex-direction: revert;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+    .gps_oneDay {}
+}
